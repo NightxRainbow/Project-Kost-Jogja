@@ -8,7 +8,13 @@
 
 </div>
 
-A data analysis project focused on boarding house (kost) listings in Yogyakarta. This project turns raw listing data into actionable business insights by cleaning the dataset, extracting amenity features, classifying room types, and identifying the best kost options based on price and facilities.
+This project transforms raw listing data into actionable market insights by cleaning the dataset, extracting amenity features, classifying room types, and evaluating the best-value kost options based on price and facilities.
+
+## Executive Summary
+
+This project analyzes the local kost market in Yogyakarta to understand how room type, affordability, and facilities shape tenant value. By converting messy listing text into structured features, the analysis identifies patterns in pricing and amenities that can guide both tenant decision making and rental market evaluation.
+
+> The project is designed as an exploratory data analysis workflow for business insight, not as a machine learning model.
 
 ## Project Overview
 
@@ -66,12 +72,12 @@ The analysis focuses on understanding how pricing and facilities vary across roo
 - relationship between availability of parking and monthly price
 - patterns in amenities across different room types
 
-## Key Findings
+## Key Insights
 
 - Price increases as room type becomes more premium.
 - Facilities such as AC, Wi-Fi, and bathroom access are strong differentiators.
 - Parking availability is often associated with higher rental value.
-- Best recommendations can be identified by balancing amenities and affordability.
+- The best recommendation is not always the cheapest option; it is the best balance between facilities and affordability.
 
 ## Dashboard & Visualizations
 
@@ -134,14 +140,6 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook Preprocessing.ipynb
 ```
 
-## Impact
 
-This project demonstrates a practical data analyst workflow for real-world housing data: cleaning messy listings, transforming text-based features into useful variables, and turning raw data into clear business insights and recommendations.
 
-## Conclusion
 
-This project provides a transparent and interpretable analysis of the Yogyakarta kost market. It is useful for understanding pricing patterns, facility trends, and the best-value options available in each room category.
-
----
-
-If you want, I can also turn this into a more premium portfolio version with a stronger title, hero section, and a short “Business Insights” summary at the top.
